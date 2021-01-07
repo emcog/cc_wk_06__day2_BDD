@@ -1,3 +1,7 @@
-// A name
-// - A ticket price
-// - A collection of dinosaurs
+const Park = function(name, ticketPrice, dinosaurs) {
+    this.name = name;
+    this.ticketPrice = ticketPrice;
+    this.dinosaurs = dinosaurs;
+};
+
+module.exports = Park;

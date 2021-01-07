@@ -6,7 +6,7 @@ const Park = function(name, ticketPrice) {
 
 Park.prototype.newDinosaur = function(dinosaur){
     this.dinosaur = dinosaur;
-    this.dinosaurs.pop(this.dinosaur)
+    this.dinosaurs.push(this.dinosaur)
 }
 
 module.exports = Park;
